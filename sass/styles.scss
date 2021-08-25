@@ -43,11 +43,15 @@ code {
   flex-direction: column;
 }
 
+.navbar-container,
+.nav-link {
+  background: #f7f7f7;
+}
+
 .navbar-container {
   position: sticky;
   top: 0;
   flex-basis: 0;
-  background: #fff;
 }
 
 .navbar {
@@ -72,7 +76,6 @@ code {
 .nav {
   position: absolute;
   width: 100%;
-  background: #fff;
   overflow: hidden;
   list-style: none;
   padding: 0;
